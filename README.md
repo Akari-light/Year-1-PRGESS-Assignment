@@ -1,2 +1,3 @@
 # Programming Essential Assignment
-A simple Rock-Paper-Scissor <s>Monster Battle game<s> in the form of Fire-Water-Grass played between a player and the computer.
+A simple python Rock-Paper-Scissor **Monster Battle game** 
+It is played between a player and the computer and players can choose from Fire-Water-Grass.
