@@ -1,2 +1,2 @@
-# Year-1-PRGESS-Assignment-
-NYP Programming Essential Assignment 1
+# Programming Essential Assignment
+A simple Rock-Paper-Scissor Monster Battle game in the form of Fire-Water-Grass played between a player and the computer.
