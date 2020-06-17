@@ -1,10 +1,10 @@
-akari,20
-jason,16
-jia rui,12
-andrew neo,10
-akari,8
-lerwin,8
-peng yong,5
-alyssa,4
-kimberly,3
-coldspot,2
+Akari,20
+Coldspot,16
+jiarui23,12
+ɴᴇᴏ,10
+TobiMeringos,8
+FallenSkys,8
+Kreative,5
+KSL,4
+d0nutlyyy,3
+twilight,2
