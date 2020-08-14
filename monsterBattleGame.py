@@ -227,7 +227,7 @@ if __name__ == '__main__':
         try:
             option = int(input("Enter your option: "))
         except ValueError:
-            print("Please enter a number from 0-3.\n")
+            print("Please enter a number from 0-3.")
         else:
             if option == 0:#Exit
                 print ("="*10, "Closing Programe", "="*10)
