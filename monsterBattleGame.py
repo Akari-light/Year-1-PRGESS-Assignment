@@ -249,7 +249,7 @@ if __name__ == '__main__':
                 clean_screen()
                 print ("="*10, "Leaderboard", "="*10)
                 view_leaderboard()
-            elif option > 3 and option < 0:
+            elif option > 3 or option < 0:
                 print("Invalid option. Please enter a valid option")
             else:
                 pass
