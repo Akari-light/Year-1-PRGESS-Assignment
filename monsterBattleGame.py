@@ -214,20 +214,23 @@ if __name__ == '__main__':
     menu_items =['How to play','Play Game','View Leaderboard']
 
     clean_screen()
+
+    #Show Menu
+    print(" "*10 + "{}".format("MAIN MENU"))        
+    print("=" * 40 )
+    print("Monster Battle Game created by Akari.")
+    print("=" * 40 )
+
+    for i in menu_items:
+        print ("[{}] {}".format(menu_items.index (i) + 1, i ))
+    print ("[{}] {}\n".format(0 ,"Exit Game"))
+
     while (is_running):
-        #Show Menu
-        print(" "*10 + "{}".format("MAIN MENU"))        
-        print("=" * 40 )
-        print("Monster Battle Game created by Akari.")
-        print("=" * 40 )
-        for i in menu_items:
-            print ("[{}] {}".format(menu_items.index (i) + 1, i ))
-        print ("[{}] {}".format(0 ,"Exit Game"))
 
         try:
             option = int(input("Enter your option: "))
         except ValueError:
-            print("Please enter a number from 0-3.")
+            print("Please enter a number from 0-3.")        
         else:
             if option == 0:#Exit
                 print ("="*10, "Closing Programe", "="*10)
