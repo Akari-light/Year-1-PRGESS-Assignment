@@ -69,7 +69,7 @@ def play_game():
                 if win_streak > highest_streak:
                     highest_streak = win_streak
                 update_leaderboard(highest_streak)
-                quit("\nThank you for playing!! Hope you had a fun.\n")
+                quit("\nThank you for playing!! Hope you had fun.\n")
             elif wager > availiable_points:
                 print("You do not have enough points.\n")
             elif wager <= 0:#Validate the points used for next game.
